@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
 	return render_template('index.html')
 
-@app.route('/signUp')
+@app.route('/signup')
 def signUp():
 	return render_template('signup.html')
 
@@ -18,7 +18,7 @@ def search():
 def display_search():
 	return render_template('result.html')
 
-@app.route('/logIn')
+@app.route('/login')
 def logIn():
 	return render_template('login.html')
  

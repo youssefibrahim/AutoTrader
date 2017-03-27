@@ -21,6 +21,10 @@ def display_search():
 @app.route('/login')
 def logIn():
 	return render_template('login.html')
+
+@app.route('/result')
+def display_result():
+	return render_template('result.html')
  
 if __name__ == '__main__':
 	app.run()

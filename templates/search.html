@@ -31,22 +31,39 @@
         <form id="contact" action="/result" method="POST">
           <h3>Advanced Search</h3>
           <fieldset>
-            <input placeholder="Make" type="text" tabindex="1" required autofocus>
+            <select style="margin-bottom: 10px; margin-left: 36%">
+              <option value="" selected disabled>Make</option>
+              <option value="">A</option>
+              <option value="">B</option>
+              <option value="">C</option>
+            </select>
           </fieldset>
           <fieldset>
-            <input placeholder="Model" type="email" tabindex="2" required>
+          <fieldset>
+            <select style="margin-bottom: 10px; margin-left: 35%">
+              <option value="" selected disabled>Model</option>
+              <option value="">A</option>
+              <option value="">B</option>
+              <option value="">C</option>
+            </select>
           </fieldset>
           <fieldset>
-            <input placeholder="Year" type="tel" tabindex="3" required>
+            <select style="margin-bottom: 10px; margin-left: 37%">
+              <option value="" selected disabled>Year</option>
+              <option value="">A</option>
+              <option value="">B</option>
+              <option value="">C</option>
+            </select>
           </fieldset>
           <fieldset>
-            <input placeholder="Kilometres Driven" type="url" tabindex="4" required>
+            <select style="margin-bottom: 10px; margin-left: 30%">
+              <option value="" selected disabled>Kms Driven</option>
+              <option value="">A</option>
+              <option value="">B</option>
+              <option value="">C</option>
+            </select>
           </fieldset>
-          <fieldset>
-            <textarea placeholder="Color" tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button style="background-color: #5bc0de; border-color: #46b8da;" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button style="background-color: #5bc0de; border-color: #46b8da;" name="submit" type="submit" id="contact-submit" href="result" action=''>Search</button>
           </fieldset>
         </form>
       </div>
